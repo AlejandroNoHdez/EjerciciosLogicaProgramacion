@@ -20,12 +20,12 @@ import java.util.Scanner;
 
 public class Ejercicio6 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.print("Ingrese una palabra o frase: ");
-        String input = scanner.nextLine();
+        String input = sc.nextLine();
 
-        scanner.close();
+        sc.close();
 
         String reversed = reverseString(input);
 
