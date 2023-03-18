@@ -1,1 +1,1 @@
-# EjerciciosLogicaProgramacion
+# Ejercicios Logica de Programacion
