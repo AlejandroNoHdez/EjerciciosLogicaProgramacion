@@ -25,6 +25,8 @@ public class Ejercicio6 {
         System.out.print("Ingrese una palabra o frase: ");
         String input = scanner.nextLine();
 
+        scanner.close();
+
         String reversed = reverseString(input);
 
         System.out.println("Texto al revés: " + reversed);
